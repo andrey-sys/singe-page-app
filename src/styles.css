@@ -1,8 +1,8 @@
 body {
     --color-primary: #009579;
     --color-primary-dark: #007f67;
-    --color-secondary: #252c6a;
-    --color-error: #cc3333;
+    --color-secondary: #0920ed;
+    --color-error: #f76f6f;
     --color-success: #4bb544;
     /* zakruglyat kraya formi i placeholderov*/
     --border-radius: 10px;
@@ -30,7 +30,7 @@ body {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     /* main frame */
     border-radius: var(--border-radius);
-    background: #d6bbd6;
+    /*background: #d6bbd6; background color for container*/
 
 }
 
@@ -58,7 +58,7 @@ body {
 .form__title{
     margin-bottom: 2rem;
     text-align: center;
-    color: rgb(65, 121, 65);
+    color: rgb(247, 52, 159);
   }
 
   /* input fields style */
@@ -70,7 +70,7 @@ body {
     border-radius: var(--border-radius);
     border: 1px solid #dddddd;
     outline: none;
-    background: #75ef8d;
+    /*background: #75ef8d;  background color for fields*/ 
     /* wait for color after focus into the placeholder */
     transition: background 0.5s, border-color 0.5s;
 
@@ -78,7 +78,7 @@ body {
 /* input fields color after focus in */
 .form__input:focus{
     border-color: var(--color-primary);
-    background: #f66db2;
+    /*background: #f66db2; background color for fields with focus*/
 }
 
 .form__input--error{
@@ -87,7 +87,7 @@ body {
 
 }
 
-.form__input--error-message {
+.form__input-error-message {
     margin-top:  0.5rem;
     font-size: 0.85rem;
     color: var(--color-error);
@@ -115,7 +115,7 @@ body {
     width: 100%;
     padding: 1rem 2rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #090909;
     border: none;
     border-radius: var(--border-radius);
